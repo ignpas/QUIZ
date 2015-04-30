@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>QUIZ</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>QUIZ</h1>
+    <p>Bienvenidos al QUIZ</p>
+  </body>
+</html>
