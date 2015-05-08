@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= Table %></h1>
+    <table>
+      <% var i; for (i=0;i< quizes.length;i++){ %>
+        <tr><td><a href="quizes/<%=quizes[i].id %>"><%= quizes[i].pregunta %></a></td></tr>
+
+
+     <% } %>
+   </table>
+  </body>
+</html>
